@@ -17,7 +17,7 @@ The `CompositeCommand` class maintains a list of child commands (`DelegateComman
 > [!Video https://www.youtube.com/embed/kssprOqdfME]
 
 ## Creating a Composite Command
-To create a composite command, instantiate a `CompositeCommand` instance and then expose it as either an `ICommand` or `ComponsiteCommand` property.
+To create a composite command, instantiate a `CompositeCommand` instance and then expose it as either an `ICommand` or `CompositeCommand` property.
 ```cs
     public class ApplicationCommands
     {
